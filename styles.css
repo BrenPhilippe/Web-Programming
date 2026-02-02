@@ -1,0 +1,22 @@
+<style> <!-- Internal CSS Example -->
+			body{
+					font-family: Verdana;
+					background-color: #f4f4f9;
+					padding: 20px;
+				}
+			h1 {
+					color: green;
+					text-align: center;
+				}
+			p {
+					color: red;
+					font-size: 16px;
+					line-height: 1.6;
+					text-align: center;
+				}
+			button {
+					color: green;
+					background-color: yellow;
+					border-color: yellow;
+				}
+</style>

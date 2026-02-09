@@ -1,0 +1,37 @@
+/* Universal Selectors */
+*{
+	font-family: Verdana;
+	box-sizing: border-box;
+}
+
+/* Type Selectors */
+body {
+	background-color: #f4f4f9;
+	padding: 20px;
+}
+
+h1{
+	color: purple;
+	text-align: center;
+}
+
+p{
+	font-size: 16px;
+	text-align: center;
+
+}
+
+/* Class Selectors */
+.note{
+	background-color: green;
+	padding: 10px;
+}
+
+.btn{
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: green;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forms Demo</title>
+	</head>
+	
+	<body>
+		<h2>Basic Forms<h2>
+		<form id="taskForm">
+			<input type="text" id="taskInput" placeholder="Enter a task">
+			<button type="submit">Add Task</button>
+		</form>
+		
+		<script>
+			let form = document.getElementById("taskForm");
+			form.action="https://google.com"
+			form.addEventListener("submit", function(event){
+				<!--event.preventDefault();-->
+				console.log("Form Submitted")
+			});
+		</script>
+	</body>
+</html>
